@@ -4,7 +4,8 @@ import Header from './components/Header';
 import Sidebar from './components/Sidebar';
 import Realtors from './components/Realtors';
 import Features from './components/Features';
-import Review from './components/Review';
+import Pictures from './components/Review/Pictures';
+import Content from './components/Review/Content';
 import Homes from './components/Homes';
 import Gallery from './components/Gallery';
 import Footer from './components/Footer';
@@ -17,7 +18,8 @@ class App extends Component {
         <Header />
         <Realtors />
         <Features />
-        <Review />
+        <Pictures />
+        <Content />
         <Homes />
         <Gallery />
         <Footer />
