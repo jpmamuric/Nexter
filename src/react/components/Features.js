@@ -41,7 +41,7 @@ const Features = () => (
   {
     features.map( (feature,i) => (
       <div key={i} className="feature">
-       <Icon name={feature.name}/>
+       <Icon name={feature.name} class='feature'/>
        <h4 className='heading-4 heading-4--dark'>{feature.heading}</h4>
        <p className="feature__text">{feature.text}</p>
       </div>
