@@ -12,7 +12,6 @@ const Gallery = () => (
           className="gallery__img"
           src={require(`../../assets/img/gal-${item}.jpeg`)} />
       </figure>
-
     ))}
   </section>
 );
