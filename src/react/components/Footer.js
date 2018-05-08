@@ -13,7 +13,7 @@ const Footer = () => (
   <footer className="footer">
     <ul className="footer__ul">
       { links.map( link =>(
-        <li className="footer__li">
+        <li key={link.text} className="footer__li">
           <a href="/" className="footer__a">{link.text}</a>
         </li>
       ))}
